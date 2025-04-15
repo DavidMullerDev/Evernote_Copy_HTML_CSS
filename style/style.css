@@ -457,15 +457,49 @@ header .menu-lat .bxt:hover {
 }
 
 .ever_action {
-    margin-top: 12rem;
-    border: 2px solid black;
+    margin-top: 4rem;
+    /* border: 2px solid black; */
     padding: 3rem;
     text-align: center;
 }
-
+.ever_action h1 {
+    font-size: 72px;
+    font-family: 'pmack';
+}
 .ever_action .ever_x {
-    border: 1px solid black;
-    width: 50%;
+    /* border: 1px solid black; */
+    width: 48%;
     margin: auto;
-    font-size: ;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.action_screen {
+    max-width: 95%;
+    margin: auto;
+}
+
+.content_action {
+    display: flex;
+    align-items: center;
+    width: 88%;
+    gap: 2rem;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.content_action .text__action {
+    width: 300px;
+    
+}
+
+.content_action .link_action{
+    	display: block;
+        margin-top: 40px;
+}
+
+.action_screen .action_img img{
+    width: 850px;
+    height: 550px ;
 }
