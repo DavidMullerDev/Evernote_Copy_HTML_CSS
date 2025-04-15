@@ -22,7 +22,7 @@ body {
 }
 
 .all-content {
-    border-bottom: 1px solid black;    
+    border-bottom: 1px solid black;
 }
 
 header {
@@ -31,14 +31,14 @@ header {
     padding: 7px 4px;
     /* position: fixed; */
     /* border: 1px solid black; */
-    
+
 }
 
 .content-size {
     max-width: 1860px;
     margin: auto;
     /* border: 2px solid black; */
-   
+
 }
 
 header .all-top {
@@ -322,11 +322,12 @@ header .menu-lat .bxt:hover {
     padding: 3rem;
     align-items: center;
     background-image: url(/img/Featured.avif);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 45rem;
     border-top: 1px solid black;
-    border-bottom: 1px solid black;;
+    border-bottom: 1px solid black;
+    ;
 }
 
 .new_content .new_section .new_article {
@@ -349,7 +350,7 @@ header .menu-lat .bxt:hover {
     margin-bottom: 50px;
 }
 
-.new_content .new_section .new_article a{
+.new_content .new_section .new_article a {
     font-size: 18px;
     color: black;
     font-family: "Inter", sans-serif;
@@ -376,6 +377,7 @@ header .menu-lat .bxt:hover {
     margin-top: 20px;
     margin-bottom: 3rem;
 }
+
 /* .new_content .new_section .new_image img {
     width: 1500px;
 } */
@@ -383,6 +385,7 @@ header .menu-lat .bxt:hover {
 .config_content {
     margin-top: 13vh;
 }
+
 .config_content_all {
     max-width: 1050px;
     margin: auto;
@@ -397,7 +400,7 @@ header .menu-lat .bxt:hover {
     gap: 4rem;
 }
 
-.config__txt .config_img img{
+.config__txt .config_img img {
     width: 550px;
 }
 
@@ -424,7 +427,7 @@ header .menu-lat .bxt:hover {
     line-height: 1.7;
 }
 
-.txt_in .button{
+.txt_in .button {
     width: 12vw;
     border: 1px solid black;
     text-align: center;
@@ -434,7 +437,7 @@ header .menu-lat .bxt:hover {
     background-color: #00a82d;
     color: white;
     font-family: "Inter", sans-serif;
-    margin-top: 30px;    
+    margin-top: 30px;
     transition: .1s all;
 }
 
@@ -457,15 +460,17 @@ header .menu-lat .bxt:hover {
 }
 
 .ever_action {
-    margin-top: 4rem;
+    margin-top: 3rem;
     /* border: 2px solid black; */
     padding: 3rem;
     text-align: center;
 }
+
 .ever_action h1 {
     font-size: 72px;
     font-family: 'pmack';
 }
+
 .ever_action .ever_x {
     /* border: 1px solid black; */
     width: 48%;
@@ -486,20 +491,60 @@ header .menu-lat .bxt:hover {
     width: 88%;
     gap: 2rem;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .content_action .text__action {
     width: 300px;
-    
+
 }
 
-.content_action .link_action{
-    	display: block;
-        margin-top: 40px;
+.content_action .text__action h3 {
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
 }
 
-.action_screen .action_img img{
+.content_action .text__action p {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    width: 240px;
+}
+.links_action {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+}
+.content_action .link_action {
+    /* display: block; */
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    padding: 12px 30px;
+    transition: .1s all;
+    box-sizing: border-box;
+}
+
+.content_action .text__action .link_action:hover {
+    background-color: white;
+    border-radius: 12px;
+}
+
+.action_screen .action_img img {
     width: 850px;
-    height: 550px ;
+    height: 550px;
+}
+
+.work_msn {
+    background-image: url(/img/green-dark-one.webp);
+    height: 35rem;
+    margin-top: 5rem;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top right;
 }
