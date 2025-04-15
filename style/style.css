@@ -547,4 +547,28 @@ header .menu-lat .bxt:hover {
     background-size:cover;
     background-repeat: no-repeat;
     background-position: top right;
+    position: relative;
+}
+
+.work_msn .content_work {
+    width: 50%;
+    margin:  auto;
+    position: relative;
+    top: 11rem;
+    text-align: center;
+}
+
+.work_msn .content_work h1 {
+    color: white;
+    font-family: 'pmack';
+    font-size: 70px;
+}
+
+.work_msn .content_work p {
+    font-size: 20px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
 }
