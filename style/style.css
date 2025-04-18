@@ -314,20 +314,23 @@ header .menu-lat .bxt:hover {
 
 .new_content {
     width: 100%;
+    align-items: center;
+    background-image: url(/img/Featured.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 53rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 
 }
 
 .new_content .new_section {
     margin: auto;
+    max-width: 1630px;
     padding: 3rem;
-    align-items: center;
-    background-image: url(/img/Featured.avif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 45rem;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    ;
+    /* border: 2px solid black; */
+    margin-top: 3rem;
+
 }
 
 .new_content .new_section .new_article {
@@ -473,9 +476,9 @@ header .menu-lat .bxt:hover {
 
 .ever_action .ever_x {
     /* border: 1px solid black; */
-    width: 48%;
+    width: 38rem;
     margin: auto;
-    line-height: 1.5;
+    line-height: 1.6;
     font-size: 18px;
     font-family: "Inter", sans-serif;
 }
@@ -488,7 +491,8 @@ header .menu-lat .bxt:hover {
 .content_action {
     display: flex;
     align-items: center;
-    width: 88%;
+    max-width: 1320px;
+    margin: auto;
     gap: 2rem;
     margin: auto;
     /* border: 1px solid black; */
@@ -514,7 +518,7 @@ header .menu-lat .bxt:hover {
 .links_action {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px;
 }
 .content_action .link_action {
@@ -562,13 +566,14 @@ header .menu-lat .bxt:hover {
     color: white;
     font-family: 'pmack';
     font-size: 70px;
+    width: 50opx;
 }
 
 .work_msn .content_work p {
     font-size: 20px;
     color: white;
     font-family: "Inter", sans-serif;
-    width: 80%;
+    width: 50%;
     margin: auto;
     line-height: 1.5;
 }
