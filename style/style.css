@@ -591,4 +591,11 @@ header .menu-lat .bxt:hover {
     border-radius: 5px;
     font-family: "Inter", sans-serif;
     color: #171717;
+    display: inline-block;
+    transition: .1s all;
+}
+
+.content_work a:hover {
+    transform: scale(1.0) translateY(-2px);
+    box-shadow: 6px 6px 1px black;
 }
