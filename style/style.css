@@ -67,6 +67,7 @@ header .img-menu {
 header .img-menu ul {
     display: flex;
     gap: 15px;
+    font-size: 16px;
 
 }
 
@@ -92,6 +93,7 @@ header .menu-lat {
     justify-content: right;
     align-items: center;
     width: 33%;
+    font-size: 16px;
     /* border: 2px solid black; */
 }
 
@@ -442,6 +444,7 @@ header .menu-lat .bxt:hover {
     font-family: "Inter", sans-serif;
     margin-top: 30px;
     transition: .1s all;
+    font-size: 16px;
 }
 
 .txt_in .button:hover {
