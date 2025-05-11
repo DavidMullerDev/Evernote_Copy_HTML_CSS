@@ -599,3 +599,12 @@ header .menu-lat .bxt:hover {
     transform: scale(1.0) translateY(-2px);
     box-shadow: 6px 6px 1px black;
 }
+
+.content_footer .img_lang_footer {
+    display: flex;
+    align-items: center;
+}
+.content_footer .img_lang_footer img{
+    width: 25px;
+
+}
